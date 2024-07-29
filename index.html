@@ -7,20 +7,33 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
 </head>
 <body>
     <header class="cabecalho">
         <div class="container">
-        <input type="checkbox">
-        <span class="salve"></span>
+        <input type="checkbox" id="menu" class="menu-checkbox">
+        <label for="menu">
+            <span class="menu-aba"></span>
+        </label>
         <img src="assets/img/Logo.svg" alt="alurabooks"
-        class="logo-alurabooks">  
+        class="logo-alurabooks"> 
+        <ul class="menu-lista">
+      <li class="lista-titulo">Categorias</li>
+      <li class="lista-titulo"><a href="#">Romance</a></li>
+      <li class="lista-titulo"><a href="#">Ação</a></li>
+      <li class="lista-titulo"><a href="#">Ficção</a></li>
+      <li class="lista-titulo"><a href="#">Comedia</a></li>
+      <li class="lista-titulo"><a href="#">Drama</a></li>
+        </ul> 
         </div>
        <div class="container">
-        <a href="#">  <img src="assets/img/Usuário.svg" alt="AluraBooks"> </a>
-        <a href="#"><img src="assets/img/Compras.svg" alt="AluraBooks"> </a>
-        <a href="#">   <img src="assets/img/Favoritos.svg" alt="Favoritos"></a>
+        <a href="#"><img src="assets/img/Usuário.svg" alt="Usuário"> </a>
+        <a href="#"><img src="assets/img/Compras.svg" alt="Compras"> </a>
+        <a href="#"><img src="assets/img/Favoritos.svg" alt="Favoritos"></a>
        </div>
+
     </header>
+    
 </body>
 </html>

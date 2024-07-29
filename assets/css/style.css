@@ -1,6 +1,7 @@
 
 @import url(header.css);
-
-.primeira-div{
-    background-color: brown;
+:root{
+    --cor-de-fundo:rgb(180,215,218);
+    --branco: white ;
+    --laranja: #eb9b00 ; 
 }
