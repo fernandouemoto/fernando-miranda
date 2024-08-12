@@ -1,11 +1,11 @@
 body{
-    background-color: #848dff;
+    background-color:#fafafac5;
 }
 
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    background-color: #ffffff;
+    background-color: #ffffffc7;
     align-items: center;
 }
 
