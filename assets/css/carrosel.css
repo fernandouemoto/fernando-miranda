@@ -1,5 +1,5 @@
 .carrosel-titulo{
-    color: var(--branco);
+    background-color: rgb(255, 255, 255);
     color: var(--laranja);
     text-align: center;
     font-size: 18px;
