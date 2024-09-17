@@ -39,3 +39,31 @@
     font-weight: 700;
     font-size: 20px;
 }
+.card-botoes{
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.descricao-titulo-livro{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.descricao-texto{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.botao-ancora{
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.descricao-titulo-livro{
+    color: var(--azul);
+    
+}
